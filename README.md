@@ -2,7 +2,7 @@
 
 Claude skills built for [Format](https://useformat.ai) — they turn customer-conversation data (via the Format MCP) into finished marketing, sales, CS, and product deliverables.
 
-Each folder is a self-contained skill (`SKILL.md` + any `references/`). Drop a folder into your skills directory to use it.
+Each folder is a self-contained skill (`SKILL.md` + any `references/`), plus a packaged `<skill>.skill` bundle you can install directly. Drop a folder into your skills directory to use it.
 
 ## Customer-facing skills (run via Format MCP)
 
