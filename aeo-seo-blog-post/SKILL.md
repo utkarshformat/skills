@@ -1,5 +1,5 @@
 ---
-name: blog-post
+name: aeo-seo-blog-post
 description: "Write B2B SaaS blog posts that rank in traditional search AND get cited by AI answer engines (ChatGPT, Perplexity, Google AI Overviews, Claude). Use when the user wants to write a blog post, draft a blog article, create content for their blog, or mentions 'blog post,' 'blog article,' 'write a post about,' 'draft a blog,' 'content brief,' 'blog draft,' 'SEO blog post,' 'AEO blog post,' 'AI-optimized blog post,' or 'write about [topic].' This skill produces blog posts that are structured for both human readers and AI extraction — answer-first, extractable, opinionated, and backed by data. Works best with a customer intelligence platform like Format (MCP server) for sourcing original insights, but also works standalone."
 ---
 
