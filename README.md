@@ -18,4 +18,4 @@ Each folder is a self-contained skill (`SKILL.md` + any `references/`), plus a p
 | `sales-enablement` | Sales collateral — pitch decks, one-pagers, objection handling, demo scripts, ROI analyses, persona cards |
 | `ai-seo` | Optimizes content to get cited by AI answer engines (ChatGPT, Perplexity, Google AI Overviews) — AEO / GEO / LLMO |
 | `blog-post` | B2B blog posts built to rank in search and get cited by AI answer engines, sourced from customer data |
-| `ficha-sales-coaching` | Assesses AE selling competency from real call recordings (customer-specific) |
+| `sales-call-coaching` | Scores a rep's outbound prospecting calls against a behavioural rubric and surfaces one SBI coaching priority, from real call recordings |
