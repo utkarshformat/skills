@@ -19,3 +19,4 @@ Each folder is a self-contained skill (`SKILL.md` + any `references/`), plus a p
 | `sales-enablement` | Sales collateral — pitch decks, one-pagers, objection handling, demo scripts, ROI analyses, persona cards |
 | `aeo-seo-blog-post` | B2B blog posts built to rank in search and get cited by AI answer engines, sourced from customer data |
 | `sales-call-coaching` | Scores a rep's outbound prospecting calls against a behavioural rubric and surfaces one SBI coaching priority, from real call recordings |
+| `closed-lost-winback` | Turns a CRM closed-lost export into an evidence-backed win-back tracker — cross-references each lost deal's calls against the rep's CRM note, flags where the conversation disagrees, and gives a RAG-rated per-account table with reasons, evidence, and a turn-around play |

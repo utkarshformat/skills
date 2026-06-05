@@ -1,0 +1,51 @@
+{
+  "_note": "Ready-to-publish Format Lens Brief payload for Taylor's closed-lost/win-back deliverable. BLOCKED: JustAppraised org needs LensBrief tier enabled (superadmin/Martin). Once enabled, publish via create_lens_brief with orgId org_qubeqqxpzb63zzjuwfp4w3el. The {{insight:...}} chip + insight block reference Brazoria insight t7bcf25k1ficcvbg0l27ca73, which only resolves in the JustAppraised org.",
+  "orgId": "org_qubeqqxpzb63zzjuwfp4w3el",
+  "title": "Closed-Lost & Win-Back: You're Losing Momentum, Not Bake-Offs",
+  "tldr": "Only 1 of 25 closed-lost conference deals was a true competitive loss — most died from timing, budget/approval, or never reaching a real conversation. Win-back priority: 5 deals with live triggers (~$153k), plus Collin County ($165k).",
+  "idempotencyKey": "ja-closed-lost-winback-20260605",
+  "document": {
+    "version": 1,
+    "blocks": [
+      {"id": "thesis", "type": "callout", "variant": "highlight", "title": "You're not losing bake-offs — you're losing momentum", "body": "25 closed-lost conference opps, ~$870k. Only **1** was a true competitive loss. The rest stalled on timing, budget, approval, or never reached a real conversation."},
+      {"id": "picture", "type": "section", "heading": "The picture", "level": 2, "blocks": [
+        {"id": "picture-bullets", "type": "text", "body": "- **Only 1 of 25 was a true competitive loss.** The rest: timing, budget, approval, or never-engaged.\n- **~6 deals (~$180k) died before a real conversation** — disco booked, never happened (the OK/AZ/RI cluster). The fix is booking and *holding* the first call, not a better pitch.\n- **Most \"losses\" are \"not now\"** with a real re-engagement trigger: Cedarburg (Oct budget), Brazoria (after Jul 18), Llano (post-CAMA conversion), Burke (new manager incoming).\n- **Biggest single prize: Collin County, $165k** — went dark after pricing; worth an exec-level re-approach.\n- **Spend time first on the 5 🟢 (~$153k)** — each has a trigger you can act on now → then Collin."}
+      ]},
+      {"id": "evidence", "type": "section", "heading": "Where the calls disagree with the notes", "level": 2, "blocks": [
+        {"id": "evidence-intro", "type": "text", "body": "The useful part isn't the rep's note — it's where the call contradicts it. Only 2 of 25 have a recorded call to check, and **both disagree with the CRM**.\n\n**Brazoria County, TX** was marked Closed Lost (3/17) with the note \"emailed Marcel to set up a review call.\" The calls show something different: a warm contact (Carla Heath), not Marcel, just frozen for protest season until after July 18 — a timing hold, not a loss."},
+        {"id": "ins-brazoria", "type": "insight", "insightId": "t7bcf25k1ficcvbg0l27ca73"},
+        {"id": "cedarburg-quote", "type": "text", "body": "**Cedarburg, WI** — the note said \"DC scheduled for 5/13.\" The call happened, and it was a 99-second budget punt, not a discovery call:\n\n> \"Probably not at this time… let's look at next year… [budget] towards October.\" — Mikko Hilvo, 5/13 · [call](https://us-55493.app.gong.io/call?id=6275894547300112691)\n\n**Delta:** not \"awaiting disco\" — a budget deferral with a concrete October re-entry. *(Quoted from the transcript; no extracted insight yet.)*"}
+      ]},
+      {"id": "tracker", "type": "section", "heading": "Win-back tracker", "level": 2, "blocks": [
+        {"id": "tracker-legend", "type": "text", "body": "🟢 act now, good odds · 🟡 revivable, needs work · 🔴 low odds"},
+        {"id": "tracker-table", "type": "table", "caption": "25 closed-lost opps across 23 accounts. Reasons marked (rep note) have no recorded call in Format yet.", "headers": ["RAG", "Account", "$", "Reason & evidence", "Turn-around play"], "rows": [
+          {"cells": ["🟢", "Brazoria County, TX", "$30k", "Timing — frozen for protest season, on hold until after July 18 {{insight:t7bcf25k1ficcvbg0l27ca73}}", "Re-engage right after July 18 with the budgetary packet she asked for"]},
+          {"cells": ["🟢", "Cedarburg, WI", "$30k", "Budget — punted to next FY (\"look at next year… October\"); from the loss call", "Re-engage Aug–Sep with a ready quote for the Oct budget"]},
+          {"cells": ["🟢", "Llano County, TX", "$30k", "Board pushback + mid-CAMA conversion; asked to pause *(rep note)*", "Re-engage post-conversion as an add-on"]},
+          {"cells": ["🟢", "Burke County, GA", "$30k", "Champion (CM) retiring, replacement incoming *(rep note)*", "Fresh disco with the new CM once they start"]},
+          {"cells": ["🟢", "Jefferson County, AL – Tax Collector", "$33k", "Internal approval pending (TJ) *(rep note)*", "Get TJ on a call to clear the sign-off"]},
+          {"cells": ["🟡", "Collin County, TX", "$165k", "Went dark after initial pricing (no disco) *(rep note)*", "Highest $ — exec-level re-approach, find a new champion"]},
+          {"cells": ["🟡", "Melrose, MA (Permits + Front Desk)", "$60k", "Stalled at pricing/proposal *(rep note)*", "Re-engage via the comms manager; revive the proposal"]},
+          {"cells": ["🟡", "Hueytown, AL", "$60k", "Poorly qualified (\"is this a real opp\") *(rep note)*", "Re-qualify Kevin Fouts on budget + need"]},
+          {"cells": ["🟡", "Holdenville, OK", "$30k", "Needs to reschedule demo *(rep note)*", "Re-book the demo — was interested enough to schedule"]},
+          {"cells": ["🟡", "Omro, WI", "$30k", "Declined demo last-minute *(rep note)*", "Re-offer a short demo on their timing"]},
+          {"cells": ["🟡", "Baldwin County, AL", "$30k", "Scheduling/OOO stall *(rep note)*; only call on file is cold, different dept", "Pursue the Assessor angle (Blount referral) + lock a date"]},
+          {"cells": ["🟡", "Livingston County, IL", "$30k", "Only an intro call; never advanced *(rep note)*", "Re-engage for a real disco"]},
+          {"cells": ["🟡", "Kent County, DE", "$30k", "Can't integrate with on-prem Neumo (daily auto-indexing) *(rep note)*", "Pivot to the one-time historical project (60k pages) — no integration"]},
+          {"cells": ["🟡", "Jefferson County, TX – Clerk", "$30k", "Lost to competitor on price; \"circle back in 6 months\" *(rep note)*", "Timed 6-mo check-in; watch if the competitor underdelivers"]},
+          {"cells": ["🟡", "Lamar County, TX – Clerk", "$30k", "Multiple no-shows *(rep note)*", "Low-effort async only; chronic ghost"]},
+          {"cells": ["🟡", "Reading, MA", "$11k", "Went quiet after asking to meet in May *(rep note)*", "One value-led touch to Victor; low $, low effort"]},
+          {"cells": ["🔴", "Parchment, MI", "$30k", "Too small / fit (\"too small a town for automated systems\") *(rep note)*", "Park unless small-town pricing or a multi-dept bundle emerges"]},
+          {"cells": ["🔴", "Youngtown, AZ", "$30k", "Disco scheduled, never happened *(rep note)*", "One re-attempt, then disqualify"]},
+          {"cells": ["🔴", "Boise City, OK", "$30k", "Disco scheduled, no-show *(rep note)*", "One re-attempt, then disqualify"]},
+          {"cells": ["🔴", "Prague, OK", "$30k", "Disco scheduled, no-show *(rep note)*", "One re-attempt, then disqualify"]},
+          {"cells": ["🔴", "Muskogee, OK", "$30k", "Disco scheduled, no-show *(rep note)*", "One re-attempt, then disqualify"]},
+          {"cells": ["🔴", "North Providence, RI", "$30k", "Disco scheduled, never happened *(rep note)*", "One re-attempt, then disqualify"]}
+        ]}
+      ]},
+      {"id": "improve", "type": "section", "heading": "How this gets better", "level": 2, "blocks": [
+        {"id": "improve-text", "type": "text", "body": "Most rows are rep-attested because the deal died before a recorded conversation. Once early-funnel disco calls are recorded and the loss-driver topic runs over Jan→now, the **Reason** column fills with customer quotes for the rest — the tracker format stays exactly the same."}
+      ]}
+    ]
+  }
+}
